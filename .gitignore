@@ -25,3 +25,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+default_pinecone_api_key
