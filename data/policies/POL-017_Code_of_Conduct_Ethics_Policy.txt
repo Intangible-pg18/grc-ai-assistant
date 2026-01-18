@@ -1,0 +1,84 @@
+POLICY ID: POL-017
+TITLE: Code of Conduct and Ethics Policy
+VERSION: 6.0
+LAST UPDATED: 2025-01-01
+OWNER: Chief Executive Officer
+REGULATORY MAPPING: SOX, SOC 2 CC1.1, ISO 27001 A.6.1, FCPA, UK Bribery Act
+
+PURPOSE:
+This policy establishes ethical standards and behavioral expectations for all Diligent personnel to maintain integrity, honesty, and professionalism in business conduct. It demonstrates commitment to legal compliance, ethical behavior, and responsible corporate citizenship while protecting our reputation and stakeholder trust.
+
+SCOPE:
+Applies to all Diligent directors, officers, employees, contractors, and consultants worldwide in all business activities and interactions with customers, partners, vendors, competitors, government officials, and colleagues.
+
+CORE ETHICAL PRINCIPLES:
+
+Integrity: Act honestly and ethically in all business dealings. Do what's right, not what's easy.
+
+Respect: Treat all individuals with dignity and respect regardless of position, background, or identity.
+
+Accountability: Take ownership for actions and decisions. Admit mistakes and work to correct them.
+
+Transparency: Communicate openly and honestly. Disclose conflicts of interest and material information.
+
+Compliance: Follow all applicable laws, regulations, policies, and contractual obligations.
+
+DETAILED STANDARDS OF CONDUCT:
+
+Legal Compliance:
+- Comply with all laws and regulations in jurisdictions where Diligent operates
+- Seek legal guidance when uncertain about legal requirements or obligations
+- Never engage in illegal activity or encourage others to violate laws
+- Cooperate fully with authorized government investigations and audits
+
+Conflicts of Interest:
+- Avoid situations where personal interests conflict with Diligent's interests
+- Disclose financial interests in competitors, customers, or vendors to compliance team
+- Recuse from decisions affecting entities where personal interest exists
+- Board members disclose outside positions and obtain approval before accepting directorships
+- No hiring of immediate family members reporting directly or indirectly without CEO approval
+
+Anti-Bribery and Corruption:
+- Zero tolerance for bribery, kickbacks, or improper payments to any party
+- No payments to government officials to secure business advantages (FCPA compliance)
+- Gifts and hospitality limited to $100 per occurrence with annual cap of $300 per recipient
+- Charitable contributions and sponsorships require approval and cannot be used to improperly influence
+- Third-party agents and intermediaries screened for corruption risk with contract compliance clauses
+
+Fair Dealing:
+- Compete fairly and honestly without misrepresentation or unfair advantage
+- Respect intellectual property rights and avoid misappropriation of trade secrets
+- No collusion with competitors on pricing, territories, or customer allocation (antitrust)
+- Honest advertising and marketing without deceptive or misleading claims
+- Respect customer confidentiality and use customer data only for authorized purposes
+
+Insider Trading:
+- Prohibit trading Diligent stock or securities while aware of material non-public information
+- Blackout periods enforced before quarterly earnings releases and material events
+- No tipping others with confidential information that could impact investment decisions
+
+Financial Integrity:
+- Accurate and timely financial reporting with complete disclosure and no falsification
+- Proper approval and documentation for all expenses and financial transactions
+- Safeguard company assets and use them responsibly for business purposes only
+- Report accounting irregularities or suspected fraud through whistleblower channels
+
+Workplace Conduct:
+- Maintain safe, inclusive, and harassment-free workplace for all employees
+- Zero tolerance for discrimination based on protected characteristics
+- No harassment, bullying, or hostile behavior toward colleagues
+- Substance abuse policy: No illegal drugs, alcohol consumption during work hours prohibited
+
+Data Protection and Privacy:
+- Handle customer and employee personal data in accordance with privacy policies and regulations
+- Use information systems responsibly and only for authorized business purposes
+- Protect confidential information and trade secrets from unauthorized disclosure
+- Report security incidents and privacy breaches immediately
+
+ACKNOWLEDGMENT AND TRAINING:
+All employees acknowledge Code of Conduct upon hire and annually thereafter. Annual ethics training mandatory with assessment and certification.
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-01
+CEO CONTACT: ceo@diligent.com
+COMPLIANCE HOTLINE: ethics@diligent.com | 1-800-XXX-XXXX (anonymous)

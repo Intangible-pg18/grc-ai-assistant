@@ -1,0 +1,214 @@
+REGULATION: ISO/IEC 27001 Information Security Management
+REGULATION ID: REG-003
+JURISDICTION: International (Global Standard)
+GOVERNING BODY: International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC)
+CURRENT VERSION: ISO/IEC 27001:2022 (Published October 2022)
+PREVIOUS VERSION: ISO/IEC 27001:2013 (Superseded)
+COMPANION STANDARD: ISO/IEC 27002:2022 (Implementation guidance)
+APPLICABILITY TO DILIGENT: Information Security Management System (ISMS) Certification
+
+REGULATORY OVERVIEW:
+ISO 27001 is the international standard for information security management systems. It specifies requirements for establishing, implementing, maintaining, and continually improving an ISMS. ISO 27001 certification demonstrates to customers, partners, and regulators that organization has implemented internationally recognized security practices.
+
+ISMS FRAMEWORK STRUCTURE (Clauses 4-10):
+
+Clause 4: Context of the Organization
+- 4.1: Understanding organization and its context (internal/external issues)
+- 4.2: Understanding needs and expectations of interested parties (stakeholders)
+- 4.3: Determining scope of ISMS (boundaries and applicability)
+- 4.4: Information Security Management System (establishing and maintaining ISMS)
+
+Clause 5: Leadership
+- 5.1: Leadership and commitment (top management demonstrates commitment)
+- 5.2: Policy (establishing information security policy aligned with strategic direction)
+- 5.3: Organizational roles, responsibilities, authorities (assigning ISMS responsibilities)
+
+Clause 6: Planning
+- 6.1: Actions to address risks and opportunities (risk assessment and treatment)
+  * 6.1.1: General planning requirements
+  * 6.1.2: Information security risk assessment (identifying, analyzing, evaluating)
+  * 6.1.3: Information security risk treatment (selecting and implementing controls)
+- 6.2: Information security objectives and planning to achieve them (measurable objectives)
+- 6.3: Planning of changes (managing ISMS changes systematically)
+
+Clause 7: Support
+- 7.1: Resources (providing necessary resources for ISMS)
+- 7.2: Competence (ensuring personnel competency)
+- 7.3: Awareness (ensuring awareness of information security policies and responsibilities)
+- 7.4: Communication (determining internal and external communications)
+- 7.5: Documented information (creating, updating, and controlling required documentation)
+
+Clause 8: Operation
+- 8.1: Operational planning and control (implementing risk treatment plans)
+- 8.2: Information security risk assessment (conducting assessments per planned intervals)
+- 8.3: Information security risk treatment (implementing risk treatment plans and managing residual risks)
+
+Clause 9: Performance Evaluation
+- 9.1: Monitoring, measurement, analysis, and evaluation (tracking ISMS performance)
+- 9.2: Internal audit (conducting internal ISMS audits at planned intervals)
+- 9.3: Management review (top management reviews ISMS suitability, adequacy, effectiveness)
+
+Clause 10: Improvement
+- 10.1: Continual improvement (improving ISMS suitability, adequacy, effectiveness)
+- 10.2: Nonconformity and corrective action (addressing nonconformities with root cause analysis)
+
+ANNEX A CONTROLS (ISO 27001:2022):
+
+The 2022 revision consolidated controls into 4 themes with 93 total controls (down from 114 in 2013 version):
+
+ORGANIZATIONAL CONTROLS (37 controls):
+- A.5.1 to A.5.37 covering policies, asset management, access control, supplier relationships, incident management, business continuity, and compliance
+
+Key Organizational Controls:
+- A.5.1: Policies for information security
+- A.5.7: Threat intelligence
+- A.5.9: Inventory of information and assets
+- A.5.10: Acceptable use of information and assets
+- A.5.15: Access control
+- A.5.19: Information security in supplier relationships
+- A.5.24: Information security incident management planning and preparation
+- A.5.29: Information security during disruption
+- A.5.30: ICT readiness for business continuity
+- A.5.34: Privacy and protection of PII
+
+PEOPLE CONTROLS (8 controls):
+- A.6.1 to A.6.8 covering screening, terms of employment, awareness, discipline, and departure
+
+Key People Controls:
+- A.6.1: Screening (background checks)
+- A.6.2: Terms and conditions of employment
+- A.6.3: Information security awareness, education, and training
+- A.6.4: Disciplinary process
+- A.6.5: Responsibilities after termination or change of employment
+- A.6.8: Information security event reporting
+
+PHYSICAL CONTROLS (14 controls):
+- A.7.1 to A.7.14 covering physical security perimeters, entry controls, offices/rooms/facilities, monitoring, utilities, equipment security, disposal, and media handling
+
+Key Physical Controls:
+- A.7.1: Physical security perimeters
+- A.7.2: Physical entry
+- A.7.4: Physical security monitoring
+- A.7.7: Clear desk and clear screen
+- A.7.10: Storage media
+- A.7.14: Secure disposal or re-use of equipment
+
+TECHNOLOGICAL CONTROLS (34 controls):
+- A.8.1 to A.8.34 covering endpoint security, access rights, authentication, cryptography, development security, vulnerability management, logging, monitoring, and network security
+
+Key Technological Controls:
+- A.8.1: User endpoint devices
+- A.8.2: Privileged access rights
+- A.8.3: Information access restriction
+- A.8.5: Secure authentication
+- A.8.9: Configuration management
+- A.8.10: Information deletion
+- A.8.11: Data masking
+- A.8.12: Data leakage prevention
+- A.8.13: Information backup
+- A.8.16: Monitoring activities
+- A.8.19: Installation of software on operational systems
+- A.8.23: Web filtering
+- A.8.24: Use of cryptography
+- A.8.28: Secure coding
+
+STATEMENT OF APPLICABILITY (SoA):
+Document explaining which Annex A controls are:
+- Applicable and implemented (with justification for how implemented)
+- Applicable but not implemented (with justification for exclusion and alternative measures)
+- Not applicable (with justification for non-applicability based on risk assessment)
+
+RISK ASSESSMENT AND TREATMENT:
+
+Risk Assessment Requirements:
+- Establish and maintain information security risk criteria (risk acceptance, risk analysis)
+- Identify information security risks (asset owners, threats, vulnerabilities, impacts)
+- Analyze information security risks (assess likelihood and impact)
+- Evaluate information security risks (compare against risk criteria, prioritize)
+- Risk assessment frequency: Annually minimum, or when significant changes occur
+
+Risk Treatment Options:
+- Avoid: Eliminate risk by not starting or continuing activity
+- Accept: Acknowledge risk with documented justification (requires management approval)
+- Share/Transfer: Insurance, outsourcing, or contractual risk transfer
+- Modify/Mitigate: Implement controls reducing likelihood or impact
+
+Risk Treatment Plan:
+Document specifying selected treatment option, controls implemented, resources required, responsibilities, and timelines.
+
+ISO 27001 CERTIFICATION PROCESS:
+
+Stage 1 Audit (Documentation Review):
+- Auditor reviews ISMS documentation for completeness and conformity
+- Assess organization's understanding of ISO 27001 requirements
+- Review scope definition, risk assessment, SoA, and ISMS procedures
+- Identify gaps before Stage 2 audit
+- Duration: 1-3 days depending on organization size
+
+Stage 2 Audit (Implementation Audit):
+- Auditor evaluates ISMS implementation and control effectiveness
+- On-site interviews with management and staff
+- Evidence examination (policies, procedures, records, logs)
+- Testing of controls from Annex A
+- Verification of risk assessment and treatment process
+- Duration: 3-7 days depending on organization size and scope
+
+Certification Decision:
+- Certification Body reviews audit findings
+- Major nonconformities must be addressed before certification granted
+- Minor nonconformities accepted with corrective action plan (30-90 day deadline)
+- Certificate issued valid for 3 years
+
+Surveillance Audits (Annual):
+- Annual audits during 3-year certification period
+- Verify ISMS maintenance and control effectiveness
+- Review changes to scope, risk assessment, or control implementation
+- Duration: 1-2 days
+- Nonconformities must be addressed to maintain certification
+
+Recertification Audit (Every 3 Years):
+- Comprehensive audit similar to Stage 2
+- Full reassessment of ISMS and Annex A controls
+- Evaluates continual improvement and ISMS maturity
+- Certificate renewed for another 3 years if successful
+
+DILIGENT ISO 27001 PROGRAM:
+
+Certification Details:
+- ISO/IEC 27001:2022 certified since 2019
+- Certification Body: BSI (British Standards Institution)
+- Certificate Number: IS 789456
+- Scope: Development and delivery of SaaS governance platform including customer data processing
+- Next recertification: January 2026
+
+ISMS Governance:
+- Information Security Steering Committee meets monthly
+- CISO reports quarterly to Board Risk Committee
+- 93 Annex A controls implemented with maturity ratings
+- Risk register with 150+ identified risks reviewed quarterly
+- Annual external penetration testing and vulnerability assessments
+
+Continuous Improvement:
+- Internal audit program covering all ISMS clauses annually
+- Management review quarterly assessing ISMS performance
+- Lessons learned from incidents integrated into control improvements
+- Benchmark against ISO 27002:2022 best practices
+
+TRANSITION FROM ISO 27001:2013 TO 2022:
+Organizations certified to 2013 version had until October 2025 to transition. Key changes:
+- Annex A restructured from 14 domains to 4 themes (93 vs 114 controls)
+- 11 new controls added (threat intelligence, cloud security, configuration management, etc.)
+- Some controls merged or renumbered
+- Updated to address modern threats (cloud, remote work, supply chain)
+
+COST AND RESOURCES:
+- Certification audit cost: $15,000-$50,000 (depends on organization size and scope)
+- Annual surveillance: $8,000-$20,000
+- Recertification: Similar to initial certification
+- Internal resources: 1-2 FTE ISMS Manager, cross-functional control owners
+- Preparation timeline: 6-18 months for mature organizations
+
+REFERENCE LINKS:
+ISO 27001 Standard Purchase: https://www.iso.org/standard/27001
+ISO 27002 Implementation Guide: https://www.iso.org/standard/75652.html
+Certified Bodies: https://www.iaf.nu/articles/IAF_MEMBERS_SIGNATORIES/4

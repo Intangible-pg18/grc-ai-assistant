@@ -1,0 +1,92 @@
+POLICY ID: POL-019
+TITLE: Asset Management Policy
+VERSION: 2.7
+LAST UPDATED: 2025-01-11
+OWNER: Chief Information Officer
+REGULATORY MAPPING: SOC 2 CC6.3, ISO 27001 A.5.9, NIST 800-53 CM-8
+
+PURPOSE:
+This policy establishes comprehensive asset management lifecycle including inventory, classification, ownership, handling, and disposal of information assets to ensure protection of critical business resources, enable effective security controls, support audit requirements, and facilitate accurate financial reporting.
+
+SCOPE:
+Applies to all Diligent assets including hardware (laptops, servers, network devices, mobile devices), software (applications, licenses, SaaS subscriptions), data (databases, files, intellectual property), and infrastructure (cloud resources, facilities, equipment) across all locations.
+
+ASSET INVENTORY REQUIREMENTS:
+
+Hardware Assets:
+- Centralized CMDB (Configuration Management Database) with all hardware tracked
+- Minimum attributes: Asset tag, serial number, model, owner, location, cost, acquisition date, warranty expiration
+- Physical inventory audit semi-annually with reconciliation to CMDB
+- Asset tagging upon receipt with barcode or RFID tags for tracking
+- Laptop and mobile device inventory via endpoint management (Jamf, Intune) with automated reporting
+
+Software and SaaS Assets:
+- Software license inventory with publisher, version, license count, expiration, renewal cost
+- SaaS subscription tracking with vendor, license count, cost, contract terms, data classification
+- License optimization reviews quarterly identifying unused licenses for reclamation
+- Software asset management tool integration with procurement and finance systems
+- Open source software registry documenting libraries with license compliance review
+
+Cloud Infrastructure Assets:
+- Cloud resource inventory automated via AWS Config, Azure Resource Graph, GCP Asset Inventory
+- Tagging strategy enforced: Environment, Owner, Cost Center, Data Classification, Project
+- Orphaned and untagged resources identified monthly with cleanup procedures
+- Reserved instance and savings plan optimization for cost management
+
+DATA ASSETS:
+
+Data Inventory:
+- Data asset register maintained documenting data categories, systems, locations, owners
+- Personal data inventory per GDPR Article 30 with processing purposes and retention periods
+- Structured data (databases) and unstructured data (file shares, document repositories) catalogued
+- Data lineage mapping showing data flows between systems for impact analysis
+
+Data Classification:
+- All data assets classified per POL-001 (Public, Internal, Confidential, Restricted)
+- Data owners assigned for each data asset with accountability for protection and quality
+- Automated classification tools (Microsoft Purview, Varonis) applied to file shares and emails
+- Classification labels embedded in metadata and document properties
+
+DETAILED ASSET LIFECYCLE:
+
+Acquisition:
+- Asset procurement through approved vendors with IT/Security review for compatibility and security
+- Hardware imaging with standard SOE (Standard Operating Environment) before deployment
+- Software provisioned through centralized app store with approval workflows
+- Cloud resources provisioned via infrastructure-as-code with security baselines enforced
+
+Deployment and Configuration:
+- Assets assigned to named owner with acceptance acknowledgment
+- Configuration baseline applied per security hardening standards (CIS Benchmarks)
+- Endpoint protection (antivirus, EDR) installed before network connectivity
+- User training provided for specialized equipment or applications
+
+Maintenance and Support:
+- Hardware under maintenance contracts with 4-hour response SLA for critical assets
+- Software patching per vulnerability management schedule (critical within 15 days)
+- Configuration drift monitoring with automatic remediation for non-compliant devices
+- Asset health monitoring with alerting for failures or performance degradation
+
+Decommissioning and Disposal:
+
+Hardware Disposal:
+- Data sanitization using NIST 800-88 media sanitization standards
+- Hard drives: DoD 5220.22-M 7-pass overwrite or physical destruction for Restricted data
+- Certificate of destruction obtained from certified e-waste vendor with serial number verification
+- Assets donated or resold only after verified data removal and asset tag removal
+
+Software Decommissioning:
+- Data export and migration to replacement system before decommissioning
+- Access revoked and accounts disabled immediately upon decommissioning
+- License reclamation for reassignment or cancellation upon renewal
+- Archival requirements verified before deletion (POL-003 retention policy)
+
+ASSET OWNERSHIP AND ACCOUNTABILITY:
+- Asset owners responsible for security, compliance, and proper use of assigned assets
+- Acceptable Use Policy acceptance required before asset assignment
+- Asset return required upon termination within 24 hours with IT verification
+- Lost or stolen assets reported immediately with police report for insurance claims
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-11
+CIO CONTACT: cio@diligent.com

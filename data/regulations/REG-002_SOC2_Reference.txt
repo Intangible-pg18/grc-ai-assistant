@@ -1,0 +1,151 @@
+REGULATION: System and Organization Controls 2 (SOC 2)
+REGULATION ID: REG-002
+JURISDICTION: United States (Global Standard)
+GOVERNING BODY: American Institute of CPAs (AICPA)
+FRAMEWORK: Trust Services Principles and Criteria (TSPC)
+EFFECTIVE DATE: 2017 Trust Services Criteria (Updated 2020)
+APPLICABILITY TO DILIGENT: Service Organization providing SaaS platform
+
+REGULATORY OVERVIEW:
+SOC 2 is an auditing standard developed by AICPA for service organizations to demonstrate security, availability, processing integrity, confidentiality, and privacy controls. SOC 2 reports provide assurance to customers that service organizations have appropriate controls to protect customer data and maintain service reliability.
+
+SOC 2 REPORT TYPES:
+
+Type I Report:
+Evaluates control design at a specific point in time. Auditor assesses whether controls are suitably designed to meet Trust Services Criteria. Does not test operating effectiveness.
+
+Type II Report:
+Evaluates both control design and operating effectiveness over a period (typically 6-12 months). Auditor tests controls to verify they operated effectively throughout the audit period. Preferred by enterprise customers.
+
+TRUST SERVICES CATEGORIES:
+
+1. SECURITY (Mandatory - Common Criteria):
+Foundational category required for all SOC 2 audits. Addresses protection of system resources against unauthorized access, use, disclosure, destruction, or modification.
+
+Common Criteria Control Areas:
+- CC1: Control Environment (COSO framework, tone at top, organizational structure)
+- CC2: Communication and Information (internal/external communication of objectives and responsibilities)
+- CC3: Risk Assessment (identification and assessment of risks to achieving objectives)
+- CC4: Monitoring Activities (ongoing and separate evaluations of control effectiveness)
+- CC5: Control Activities (policies and procedures ensuring management directives executed)
+- CC6: Logical and Physical Access Controls (restricting access to authorized users)
+- CC7: System Operations (monitoring, incident management, configuration management)
+- CC8: Change Management (managing changes to system infrastructure, software, data)
+- CC9: Risk Mitigation (managing vendor and business partner risks)
+
+2. AVAILABILITY (Optional - A1 Category):
+System available for operation and use as committed or agreed. Addresses business continuity, disaster recovery, and incident response.
+
+Key Control Objectives:
+- Infrastructure and software maintained to support availability commitments
+- Recovery and business continuity plans established and tested
+- Incidents detected, communicated, and resolved timely
+- Uptime SLAs monitored and reported (typically 99.9% or higher)
+
+3. PROCESSING INTEGRITY (Optional - PI1 Category):
+System processing is complete, valid, accurate, timely, and authorized to meet entity's objectives.
+
+Key Control Objectives:
+- Input data complete, accurate, and authorized before processing
+- Processing accurate, complete, and timely
+- Output processing accurate and complete
+- Error handling and correction procedures implemented
+- Data quality monitoring and validation controls
+
+4. CONFIDENTIALITY (Optional - C1 Category):
+Information designated as confidential protected as committed or agreed. Addresses protection of proprietary, strategic, and sensitive business information.
+
+Key Control Objectives:
+- Confidential information identified and classified
+- Access to confidential information restricted to authorized users
+- Confidential information protected during transmission and storage
+- Confidential information disposal procedures secure and complete
+
+5. PRIVACY (Optional - P1-P8 Categories):
+Personal information collected, used, retained, disclosed, and disposed in conformity with commitments in entity's privacy notice.
+
+Privacy Principles:
+- P1: Notice to data subjects about privacy practices
+- P2: Choice and consent for collection, use, and disclosure
+- P3: Collection limited to identified purposes with consent
+- P4: Use, retention, and disposal limited to purposes specified
+- P5: Access for individuals to review and correct personal information
+- P6: Disclosure to third parties only as specified and with consent
+- P7: Quality maintained with procedures for accuracy and completeness
+- P8: Monitoring and enforcement to ensure compliance with privacy commitments
+
+SOC 2 AUDIT PROCESS:
+
+Readiness Assessment (Optional):
+Pre-audit assessment by CPA firm identifying control gaps and recommendations before formal audit. Helps ensure successful audit outcome.
+
+Planning Phase (4-6 Weeks):
+- Scope definition: Systems, processes, and trust service categories included
+- Control identification: Mapping controls to Trust Services Criteria
+- Test plan development: Defining audit procedures and sample sizes
+- Kick-off meeting with management and control owners
+
+Fieldwork Phase (8-12 Weeks for Type II):
+- Control design evaluation through walkthroughs and documentation review
+- Operating effectiveness testing through sampling and evidence examination
+- Minimum 60-90 days of operation for Type II audit
+- Management responses obtained for deficiencies identified
+
+Reporting Phase (4-6 Weeks):
+- Draft report issued to management for review and comment
+- Management representation letter obtained
+- Final SOC 2 report issued with:
+  * Management's description of system
+  * Independent service auditor's report
+  * Description of Trust Services Criteria
+  * Control objectives and related controls
+  * Test results and exceptions noted
+  * Complementary User Entity Controls (CUECs) if applicable
+
+CONTROL MATURITY LEVELS:
+
+Control testing may identify:
+- Effective Controls: Designed and operating effectively, no exceptions noted
+- Deficiencies: Control design or operating gaps not rising to significant deficiency
+- Significant Deficiencies: Control weaknesses that could adversely affect ability to meet criteria
+- Material Weaknesses: Deficiencies or combination of deficiencies that create reasonable possibility criteria not met
+
+COMPLEMENTARY USER ENTITY CONTROLS (CUECs):
+Controls that user organizations must implement for system to operate effectively. Examples:
+- Users maintain password confidentiality and complexity
+- Users review access logs and report suspicious activity
+- Users perform user access reviews and remove terminated employees
+- Users maintain secure network connections to service
+
+SUBSERVICE ORGANIZATIONS:
+When service organization uses subservice providers (e.g., AWS, Azure), two approaches:
+1. Carve-Out Method: Exclude subservice provider from scope, rely on their SOC 2 report
+2. Inclusive Method: Include subservice provider controls in scope, auditor tests controls
+
+DILIGENT SOC 2 PROGRAM:
+
+Current Certifications:
+- SOC 2 Type II (Security, Availability, Confidentiality) - Annual audit by Deloitte
+- Report period: January 1 - December 31 annually
+- Clean opinion with no exceptions or qualified opinions since 2020
+
+Control Framework:
+- 150+ controls mapped to Trust Services Criteria
+- Automated control monitoring and evidence collection through GRC platform
+- Quarterly internal testing covering 100% of controls annually
+- Continuous control monitoring with real-time dashboards
+
+Report Distribution:
+- SOC 2 reports provided to enterprise customers under NDA via Trust Center
+- Bridge letters issued for material control changes between audit periods
+- Executive summary available for prospects during sales process
+
+COST AND TIMELINE:
+- SOC 2 Type II audit cost: $75,000-$150,000 depending on scope and auditor
+- Preparation time: 6-12 months for first audit
+- Annual recertification: 4-6 months
+- Recommended to start with Type I then progress to Type II after 6 months of operation
+
+REFERENCE LINKS:
+AICPA Trust Services Criteria: https://www.aicpa.org/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
+SOC 2 Compliance Academy: https://soc2.co.academy

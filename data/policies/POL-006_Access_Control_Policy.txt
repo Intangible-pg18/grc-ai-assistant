@@ -1,0 +1,49 @@
+POLICY ID: POL-006
+TITLE: Access Control and Privilege Management Policy
+VERSION: 4.0
+LAST UPDATED: 2025-01-11
+OWNER: Chief Information Security Officer
+REGULATORY MAPPING: SOC 2 CC6.2, ISO 27001 A.9.1, GDPR Art. 32, NIST 800-53 AC Family
+
+PURPOSE:
+This policy establishes principles of least privilege, role-based access control, and privileged access management to ensure users have appropriate access to systems and data based on job responsibilities. Proper access control prevents unauthorized access, limits insider threat risk, and supports regulatory compliance.
+
+SCOPE:
+Applies to all access requests, user provisioning, role assignments, and privileged access across Diligent's corporate network, production environments, databases, applications, cloud platforms, physical facilities, and customer data.
+
+LEAST PRIVILEGE PRINCIPLE:
+Users granted minimum access necessary to perform assigned duties. Default deny approach with explicit grant of permissions. Access rights reviewed and justified quarterly with business owner attestation.
+
+ROLE-BASED ACCESS CONTROL (RBAC):
+
+- Standard roles defined by department and job function with documented access matrix
+- Custom roles require CISO approval with business justification and security review
+- Role assignments based on HR system job codes with automated provisioning workflows
+- Segregation of duties enforced between development, testing, and production environments
+- Conflicting role combinations prevented (e.g., developer cannot have production write access)
+
+PRIVILEGED ACCESS MANAGEMENT:
+
+- Administrative accounts separate from standard user accounts (admin-username format)
+- Privileged Access Workstation (PAW) required for all administrative activities
+- Just-in-Time (JIT) access for production systems with 4-hour maximum session duration
+- Privileged session recording and monitoring with automated anomaly detection
+- Root/Domain Admin access restricted to 3 named individuals with dual approval requirement
+- Break-glass emergency access procedures with automatic incident creation and executive notification
+
+DETAILED REQUIREMENTS:
+
+- Access requests submitted through IT service management system with manager approval required
+- Automated provisioning based on HR onboarding within 4 hours of start date
+- Quarterly access reviews by data owners with certification of continued need
+- Immediate access revocation upon termination or role change within 1 hour
+- Dormant accounts (90 days inactive) automatically disabled with notification to manager
+- Vendor/contractor access time-bound to contract period with automatic expiration
+- Customer impersonation access logged with ticket number, business justification, and limited 30-minute duration
+
+ACCESS REVIEW PROCESS:
+Quarterly attestation campaigns managed through IGA platform. Reviewers certify each user's access is appropriate. Non-responses escalate to executive leadership. Revocations processed within 24 hours.
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-11
+CISO CONTACT: ciso@diligent.com

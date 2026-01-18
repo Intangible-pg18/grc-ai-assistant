@@ -1,0 +1,50 @@
+POLICY ID: POL-002
+TITLE: Privacy and Data Protection Policy
+VERSION: 4.2
+LAST UPDATED: 2025-01-10
+OWNER: Data Protection Officer
+REGULATORY MAPPING: GDPR, CCPA, PIPEDA, UK GDPR, LGPD
+
+PURPOSE:
+This policy ensures Diligent's compliance with global privacy regulations and protects the fundamental privacy rights of customers, employees, and data subjects. It establishes principles for lawful, fair, and transparent processing of personal data across all business operations and jurisdictions.
+
+SCOPE:
+Applies to all personal data processing activities conducted by Diligent, including customer data, employee records, vendor information, and prospect details. All business units, applications, and data processing systems must comply with this policy.
+
+DATA SUBJECT RIGHTS:
+
+- Right to access personal data (GDPR Art. 15, CCPA §1798.110)
+- Right to rectification and correction (GDPR Art. 16)
+- Right to erasure/"right to be forgotten" (GDPR Art. 17)
+- Right to data portability in machine-readable format (GDPR Art. 20)
+- Right to object to processing (GDPR Art. 21)
+- Right to opt-out of sale/sharing (CCPA §1798.120)
+- Response SLA: 30 days maximum (15 days for California residents)
+
+LAWFUL BASIS FOR PROCESSING:
+
+- Explicit consent with clear opt-in mechanisms (no pre-checked boxes)
+- Contract performance and fulfillment of contractual obligations
+- Legal obligation and compliance requirements
+- Legitimate interests with documented balancing test demonstrating minimal privacy impact
+- Vital interests in emergency situations
+
+DATA MINIMIZATION PRINCIPLE:
+Collect only data necessary and relevant for explicitly stated purposes. No excessive, irrelevant, or speculative data collection permitted. Regular reviews to identify and eliminate unnecessary data points.
+
+CROSS-BORDER TRANSFERS:
+
+- EU-US Data Privacy Framework compliance for US transfers
+- Standard Contractual Clauses (SCCs) implementation for transfers to non-adequate countries
+- Data localization requirements respected (Russia, China, Brazil)
+- Transfer Impact Assessments (TIA) conducted for high-risk transfers
+
+PRIVACY BY DESIGN AND DEFAULT:
+All new products, features, and data processing activities must complete Privacy Impact Assessment (PIA) before deployment. Default settings must maximize privacy protection.
+
+CONSENT MANAGEMENT:
+Granular consent options provided for different processing purposes. Consent withdrawal mechanisms must be as easy as providing consent.
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-10
+DPO CONTACT: dpo@diligent.com

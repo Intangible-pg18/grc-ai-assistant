@@ -1,0 +1,103 @@
+POLICY ID: POL-018
+TITLE: Whistleblower and Incident Reporting Policy
+VERSION: 3.4
+LAST UPDATED: 2025-01-03
+OWNER: Chief Compliance Officer
+REGULATORY MAPPING: SOX Section 301, SOC 2 CC1.4, Dodd-Frank Act, EU Whistleblower Directive
+
+PURPOSE:
+This policy establishes confidential reporting channels and protection mechanisms enabling employees, contractors, and stakeholders to report suspected violations of law, policy, or ethics without fear of retaliation. It ensures concerns are promptly investigated and addressed, promoting accountability and ethical culture.
+
+SCOPE:
+Applies to all Diligent personnel, contractors, vendors, customers, and third parties reporting concerns about illegal conduct, policy violations, fraud, safety issues, harassment, discrimination, or other misconduct by Diligent employees, officers, or directors.
+
+REPORTABLE CONCERNS:
+
+Financial and Accounting Irregularities:
+- Fraudulent financial reporting or misstatement of results
+- Embezzlement, theft, or misappropriation of assets
+- Improper revenue recognition or accounting practices
+- Unauthorized or questionable payments
+- Expense report fraud or falsification
+
+Legal and Regulatory Violations:
+- Violations of laws, regulations, or industry standards
+- Bribery, corruption, or anti-competition violations
+- Trade secret misappropriation or intellectual property theft
+- Insider trading or securities law violations
+- Privacy and data protection breaches
+
+Workplace Misconduct:
+- Harassment, discrimination, or hostile work environment
+- Retaliation against reporters or witnesses
+- Conflicts of interest not properly disclosed
+- Safety hazards or environmental violations
+- Substance abuse impacting workplace safety
+
+Business Ethics Violations:
+- Code of Conduct violations
+- Vendor kickbacks or improper benefits
+- Misuse of company resources or assets
+- Falsification of records or reports
+- Customer fraud or misrepresentation
+
+REPORTING CHANNELS:
+
+Internal Reporting:
+- Direct manager or any member of management
+- Human Resources Department: hr@diligent.com
+- Compliance Department: compliance@diligent.com | +1-555-COMPLY
+- Chief Compliance Officer: cco@diligent.com
+- General Counsel: legal@diligent.com
+
+Anonymous Reporting:
+- Ethics Hotline (24/7, third-party operated): 1-800-XXX-XXXX
+- Web Portal: https://diligent.ethicspoint.com (anonymous submission allowed)
+- Available in 15 languages with local phone numbers for international reporters
+- No caller ID, IP tracking, or attribution on anonymous reports
+
+DETAILED INVESTIGATION PROCESS:
+
+Report Intake and Assessment (1-3 Business Days):
+- Compliance team reviews all reports within 24 hours of receipt
+- Preliminary assessment determines severity, credibility, and investigation approach
+- Reporter acknowledged (if not anonymous) with case number for follow-up
+- High-severity concerns (fraud, safety, legal violations) escalated immediately to CCO and Audit Committee
+
+Investigation (5-30 Days):
+- Investigation team assigned based on nature of concern (HR, Legal, Compliance, External investigator)
+- Interviews conducted with reporter (if identified), accused parties, and relevant witnesses
+- Evidence collected including documents, emails, system logs, and financial records
+- Confidentiality maintained throughout investigation to protect all parties
+- Anonymous reporters can check status and provide additional information via case number
+- Complex or serious matters may engage external investigators for independence
+
+Resolution and Corrective Action (Within 45 Days):
+- Investigation findings documented with conclusions and supporting evidence
+- Substantiated violations result in disciplinary action up to termination
+- Corrective actions implemented to prevent recurrence (policy updates, training, controls)
+- Reporter notified of outcome (within confidentiality constraints) and thanked for coming forward
+- Findings reported to Audit Committee quarterly with anonymized summaries
+
+NON-RETALIATION PROTECTION:
+
+Zero Tolerance for Retaliation:
+- No adverse action against any person reporting in good faith
+- Retaliation includes termination, demotion, harassment, exclusion, or any detrimental action
+- Reporters protected even if investigation does not substantiate concern (good faith standard)
+- Managers and coworkers prohibited from retaliating against reporters or witnesses
+- Retaliation itself is serious violation resulting in immediate termination
+
+Whistleblower Rights:
+- Anonymous reporters can remain anonymous throughout investigation
+- Identity of reporter kept confidential except where legally required for investigation
+- Reporter may designate representative or attorney to participate in process
+- Right to escalate to Audit Committee if dissatisfied with investigation outcome
+
+REPORTING METRICS:
+Compliance team tracks all reports by category, source, investigation status, and resolution. Quarterly report to Audit Committee includes trends, recurring issues, and corrective actions.
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-03
+CCO CONTACT: cco@diligent.com
+ETHICS HOTLINE: 1-800-XXX-XXXX (24/7, Anonymous)

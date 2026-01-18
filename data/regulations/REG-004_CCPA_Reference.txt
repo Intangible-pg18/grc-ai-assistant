@@ -1,0 +1,235 @@
+REGULATION: California Consumer Privacy Act (CCPA) / California Privacy Rights Act (CPRA)
+REGULATION ID: REG-004
+JURISDICTION: California, United States
+EFFECTIVE DATE: January 1, 2020 (CCPA) / January 1, 2023 (CPRA amendments)
+ENFORCEMENT AUTHORITY: California Privacy Protection Agency (CPPA)
+APPLICABILITY TO DILIGENT: Business processing California residents' personal information
+
+REGULATORY OVERVIEW:
+The CCPA, as amended by CPRA, is California's comprehensive privacy law providing California residents with rights over their personal information and imposing obligations on businesses collecting, selling, or sharing such information. It is considered the strongest state privacy law in the United States and influences privacy legislation nationally.
+
+APPLICABILITY THRESHOLDS (Business Definition):
+
+A business must comply if it:
+1. Has annual gross revenues exceeding $25 million, OR
+2. Processes personal information of 100,000+ California consumers or households annually (reduced from 50,000 under original CCPA), OR
+3. Derives 50% or more of annual revenues from selling or sharing consumers' personal information
+
+Diligent Status: Exceeds threshold #1 and #2, classified as "Business" under CCPA
+
+PERSONAL INFORMATION DEFINITION:
+Information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked (directly or indirectly) to a particular consumer or household.
+
+Categories include:
+- Identifiers (name, email, IP address, device ID, cookie ID)
+- Commercial information (purchase history, browsing behavior)
+- Biometric information (fingerprints, faceprints, voiceprints)
+- Internet activity (browsing history, search history, interactions with websites/apps)
+- Geolocation data (precise location information)
+- Professional/employment information (job title, employer, work history)
+- Education information (degree, school, grades)
+- Inferences (preferences, characteristics, behavior predictions)
+- Sensitive Personal Information (see below)
+
+SENSITIVE PERSONAL INFORMATION (CPRA Addition):
+Subset of personal information subject to additional restrictions:
+- Social Security number, driver's license, passport number
+- Account credentials with security/access codes
+- Precise geolocation (within 1,850 feet)
+- Racial/ethnic origin, religious beliefs, union membership
+- Email, text messages, mail contents (unless business is intended recipient)
+- Genetic data, biometric data for identification
+- Personal information collected about children under 16
+- Health information, sex life, sexual orientation
+
+Consumer rights regarding sensitive PI: Right to limit use and disclosure to necessary purposes only.
+
+CONSUMER RIGHTS:
+
+1. Right to Know (§1798.100, §1798.110, §1798.115):
+Consumers can request disclosure of:
+- Categories and specific pieces of personal information collected
+- Categories of sources from which information collected
+- Business or commercial purposes for collection
+- Categories of third parties with whom information shared
+- Categories of personal information sold or shared and recipients
+
+Response Requirements:
+- Provide information for preceding 12 months
+- Searchable and portable format (commonly used, machine-readable)
+- Response deadline: 45 days (45-day extension permitted with notice)
+- Frequency: 2 verifiable requests per 12-month period
+
+2. Right to Delete (§1798.105):
+Consumers can request deletion of personal information collected from them.
+
+Exceptions (Business can refuse deletion if necessary for):
+- Completing transaction or providing requested service
+- Detecting security incidents, fraud, or illegal activity
+- Debugging and repairing functionality
+- Free speech exercise or other legal rights
+- Compliance with legal obligations
+- Internal uses reasonably aligned with consumer expectations
+- Research in public interest with appropriate safeguards
+
+Response: Delete from records and direct service providers to delete (45 days)
+
+3. Right to Correct (§1798.106 - CPRA Addition):
+Consumers can request correction of inaccurate personal information.
+Business must use commercially reasonable efforts to correct (45 days)
+
+4. Right to Opt-Out (§1798.120):
+Consumers can opt-out of:
+- Sale of personal information to third parties
+- Sharing of personal information for cross-context behavioral advertising (CPRA)
+
+Implementation Requirements:
+- "Do Not Sell or Share My Personal Information" link on homepage
+- Honor Global Privacy Control (GPC) browser signals (CPRA requirement)
+- Cannot require account creation to submit opt-out request
+- Wait 12 months before requesting opt-in after opt-out
+
+5. Right to Limit Use of Sensitive Personal Information (§1798.121 - CPRA):
+Consumers can limit use of sensitive PI to:
+- Performing services or providing goods reasonably expected
+- Ensuring security and integrity
+- Short-term, transient use
+- Performing services on behalf of business
+- Quality/safety verification or improvement
+
+Implementation: "Limit the Use of My Sensitive Personal Information" link if applicable
+
+6. Right to Non-Discrimination (§1798.125):
+Businesses cannot discriminate against consumers for exercising CCPA rights:
+- Cannot deny goods or services
+- Cannot charge different prices or rates
+- Cannot provide different quality of services
+- Can offer financial incentives for data collection (with opt-in consent)
+
+BUSINESS OBLIGATIONS:
+
+Notice at Collection (§1798.100(b)):
+Before or at collection, disclose:
+- Categories of personal information to be collected
+- Purposes for which information will be used
+- Whether information sold or shared
+- Length of retention or criteria for determining retention period
+- Link to privacy policy
+
+Privacy Policy Requirements (§1798.130):
+Comprehensive privacy policy must disclose:
+- Categories of personal information collected (last 12 months)
+- Categories of sources of personal information
+- Business purposes for collection
+- Categories of third parties with whom information shared
+- Consumer rights under CCPA with instructions for exercising
+- Categories of personal information sold or shared with recipients (if applicable)
+- Categories of sensitive personal information collected and purposes
+- Retention periods by category or criteria for determination
+
+Update Requirements: Privacy policy updated at least every 12 months
+
+Consumer Request Handling (§1798.130(a)):
+- Provide 2+ methods for submitting requests (toll-free number, website form)
+- Do not require account creation to submit request
+- Verify consumer identity before responding (reasonable methods)
+- For agents submitting on behalf of consumers, verify authorization
+- Provide reasons for denial if request denied (with appeal rights)
+- Maintain records of requests and responses for 24 months
+
+Data Protection Assessment (§1798.185 - CPRA):
+Required for processing that presents significant risk to privacy/security:
+- Document processing purpose, categories of PI, and risk mitigation
+- Submit to CPPA upon request
+- Applies to processing of sensitive PI, selling/sharing, profiling with legal/significant effects
+
+Contracts with Service Providers and Contractors (§1798.140):
+Contracts must:
+- Prohibit retention, use, or disclosure of PI for purposes other than specified services
+- Prohibit sale or sharing of personal information
+- Prohibit combining PI with information from other sources (except as permitted)
+- Grant consumer rights to service provider data
+- Certify understanding of restrictions and compliance commitment
+- Permit CPPA audits upon notice
+
+ENFORCEMENT AND PENALTIES:
+
+Civil Penalties (Administrative):
+- Violations: Up to $2,500 per violation
+- Intentional violations: Up to $7,500 per violation
+- California Privacy Protection Agency enforces with 30-day cure period for first violations
+
+Private Right of Action (Data Breaches Only - §1798.150):
+Consumers can sue for data breaches involving specific categories of unencrypted/unredacted personal information:
+- SSN, driver's license, state ID, passport
+- Account credentials (username + password/security Q&A)
+- Financial account information (account number + security code/password)
+- Medical information, health insurance information
+- Biometric information
+
+Statutory Damages: $100-$750 per consumer per incident or actual damages (whichever greater)
+30-day notice and cure period before litigation
+Class action lawsuits permitted
+
+CPRA ENHANCEMENTS (Effective January 1, 2023):
+
+New Agency: California Privacy Protection Agency (CPPA) created as dedicated enforcement authority (previously Attorney General)
+
+New Rights:
+- Right to correct inaccurate personal information
+- Right to limit use of sensitive personal information
+
+Expanded Definitions:
+- "Sharing" includes cross-context behavioral advertising (not just "selling")
+- "Sensitive personal information" category created with special protections
+- "Dark patterns" prohibited (interfaces designed to manipulate consent)
+
+Stricter Requirements:
+- Minimize personal information collection to reasonably necessary and proportionate
+- Retention limited to reasonably necessary period
+- Annual cybersecurity audits for businesses processing PI of 1M+ consumers
+- Risk assessments for high-risk processing activities
+- Honor Global Privacy Control (GPC) signals as valid opt-out requests
+
+Lookback Period: 12 months (increased from prior 12-month limitation provides continuity)
+
+DILIGENT CCPA/CPRA COMPLIANCE PROGRAM:
+
+Data Inventory:
+- Personal information categories mapped to systems and processing activities
+- Sources, purposes, retention periods, and third-party recipients documented
+- Sensitive personal information identified with special handling procedures
+
+Consumer Rights Infrastructure:
+- Privacy portal at privacy.diligent.com for request submission
+- Toll-free number: 1-800-XXX-XXXX
+- Identity verification via email confirmation + knowledge-based authentication
+- Automated fulfillment for data access requests (< 15 days average)
+- Manual review for deletion requests with exception assessment (< 30 days)
+
+Privacy Notices:
+- "Notice at Collection" embedded in signup flows and data collection forms
+- Privacy Policy updated quarterly with CCPA disclosures (last updated January 2025)
+- "Do Not Sell or Share My Personal Information" link on all website pages
+- Global Privacy Control (GPC) signal honored automatically
+
+Vendor Management:
+- Data processing agreements with all service providers including CCPA terms
+- Annual vendor assessments including CCPA compliance verification
+- Subprocessor list maintained and updated for transparency
+
+Training and Awareness:
+- Annual CCPA training for all employees handling California consumer data
+- Specialized training for customer support on consumer rights requests
+- Executive briefings on CPRA changes and compliance updates
+
+Metrics (2024):
+- Consumer requests processed: 3,847 (89% access, 8% deletion, 3% correction)
+- Average response time: 18 days (well within 45-day requirement)
+- Opt-out requests: 412 honored immediately
+- No enforcement actions or consumer lawsuits filed
+
+REFERENCE LINKS:
+Official CCPA Text: https://oag.ca.gov/privacy/ccpa
+California Privacy Protection Agency: https://cppa.ca.gov/
+CPRA Full Text: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB375

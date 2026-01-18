@@ -1,0 +1,63 @@
+POLICY ID: POL-011
+TITLE: Audit and Assessment Policy
+VERSION: 2.9
+LAST UPDATED: 2025-01-05
+OWNER: Chief Compliance Officer
+REGULATORY MAPPING: SOC 2 CC3.4, ISO 27001 Clause 9.2, SOX Section 404
+
+PURPOSE:
+This policy establishes comprehensive internal audit, external audit, and security assessment programs to provide independent assurance that Diligent's controls are designed effectively and operating as intended. Regular audits identify deficiencies, drive continuous improvement, and satisfy regulatory and customer requirements.
+
+SCOPE:
+Applies to all audit activities including internal audits, external certification audits, penetration testing, vulnerability assessments, customer security assessments, and regulatory examinations across all Diligent systems, processes, and locations.
+
+AUDIT PROGRAM STRUCTURE:
+
+Internal Audit Function:
+- Independent reporting line to Audit Committee of Board of Directors
+- Annual risk-based audit plan covering IT general controls, application controls, operational processes, and compliance
+- Quarterly audits with rotating focus ensuring three-year coverage of all business units and processes
+- Audit staff holds relevant certifications (CIA, CISA, CISSP, CRISC)
+
+External Audits:
+- Annual SOC 2 Type II audit by Big Four accounting firm
+- ISO 27001 annual surveillance audit by accredited certification body
+- Financial audit per SOX requirements with IT general controls testing
+- Customer-directed audits accommodated with NDA and scope agreements
+
+INTERNAL AUDIT REQUIREMENTS:
+
+- Risk assessment annually identifying high-risk areas requiring audit attention
+- Audit fieldwork includes control design evaluation, operating effectiveness testing, and evidence sampling
+- Minimum 25 samples per control tested or statistical sampling methodology for high-volume populations
+- Findings rated by severity: Critical (immediate remediation), High (30 days), Medium (60 days), Low (90 days)
+- Management response required for all findings with action plan, owner, and due date
+- Follow-up audits verify remediation of Critical and High findings within 90 days
+- Audit reports distributed to executive leadership, process owners, and Audit Committee
+
+SECURITY ASSESSMENTS:
+
+- Annual penetration testing by independent third-party firm using PTES methodology
+- Testing scope includes external infrastructure, web applications, APIs, and social engineering
+- Quarterly vulnerability scans using Qualys/Tenable with 7-day remediation SLA for critical vulnerabilities
+- Static application security testing (SAST) integrated into CI/CD pipeline for all code commits
+- Dynamic application security testing (DAST) pre-production for all releases
+- Red team exercises annually simulating advanced persistent threat scenarios
+
+DETAILED REQUIREMENTS:
+
+- Audit universe documented with all auditable entities, inherent risk rating, and last audit date
+- Audit schedule published annually with quarterly updates for emerging risks
+- Audit working papers retained for 7 years in secure audit management system
+- Privileged access provided to auditors through separate read-only accounts with session recording
+- Compensating controls accepted temporarily if remediation infeasible with executive approval and documented risk acceptance
+- Audit Committee receives quarterly report with audit summary, key findings, remediation status, and metrics
+
+CUSTOMER SECURITY ASSESSMENTS:
+- Standardized security questionnaire (CAIQ, SIG, VSA) completed annually and published to Trust Center
+- Customer-specific questionnaires prioritized by ARR with 15-day SLA for enterprise customers
+- Onsite audits permitted with 30-day notice, NDA, and scope limitation to ISO/SOC 2 certified controls
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-05
+CCO CONTACT: cco@diligent.com

@@ -1,0 +1,124 @@
+REGULATION: General Data Protection Regulation (GDPR)
+REGULATION ID: REG-001
+JURISDICTION: European Union (EU) and European Economic Area (EEA)
+EFFECTIVE DATE: May 25, 2018
+LAST AMENDED: 2023 (Technical updates and guidance)
+APPLICABILITY TO DILIGENT: Data Controller and Data Processor for EU personal data
+
+REGULATORY OVERVIEW:
+The GDPR is the primary privacy and data protection law in the European Union, establishing comprehensive requirements for processing personal data of EU residents. It applies to organizations worldwide that offer goods/services to EU residents or monitor their behavior, regardless of where the organization is established.
+
+KEY PRINCIPLES (Article 5):
+
+(a) Lawfulness, Fairness, and Transparency:
+Personal data must be processed lawfully based on valid legal basis (consent, contract, legal obligation, vital interests, public task, or legitimate interests). Processing must be fair and transparent to data subjects.
+
+(b) Purpose Limitation:
+Data collected for specified, explicit, and legitimate purposes. No further processing incompatible with original purposes except for archiving, scientific research, or statistical purposes under safeguards.
+
+(c) Data Minimization:
+Personal data must be adequate, relevant, and limited to what is necessary for processing purposes. Excessive or irrelevant data collection prohibited.
+
+(d) Accuracy:
+Personal data must be accurate and kept up to date. Inaccurate data must be erased or rectified without delay.
+
+(e) Storage Limitation:
+Personal data kept in identifiable form only as long as necessary for processing purposes. Longer retention permitted only for archiving, research, or statistical purposes with appropriate safeguards.
+
+(f) Integrity and Confidentiality:
+Personal data processed in manner ensuring appropriate security including protection against unauthorized processing, accidental loss, destruction, or damage using technical and organizational measures.
+
+LAWFUL BASIS FOR PROCESSING (Article 6):
+- Consent: Freely given, specific, informed, and unambiguous indication of data subject's agreement
+- Contract: Processing necessary for contract performance or pre-contractual measures
+- Legal Obligation: Processing necessary to comply with legal requirements
+- Vital Interests: Processing necessary to protect life or physical safety
+- Public Task: Processing necessary for official authority or public interest tasks
+- Legitimate Interests: Processing necessary for legitimate interests pursued by controller or third party (requires balancing test)
+
+DATA SUBJECT RIGHTS (Articles 12-22):
+
+Article 15 - Right of Access:
+Data subjects can obtain confirmation of processing, access to personal data, and information about processing activities. Controller must provide copy of data in commonly used electronic format.
+
+Article 16 - Right to Rectification:
+Data subjects can request correction of inaccurate personal data and completion of incomplete data.
+
+Article 17 - Right to Erasure ("Right to be Forgotten"):
+Data subjects can request deletion of personal data when: consent withdrawn, data no longer necessary, objection to processing, unlawful processing, legal obligation to erase, or data collected from children.
+
+Article 18 - Right to Restriction of Processing:
+Data subjects can request restriction when: accuracy contested, processing unlawful but deletion not desired, data no longer needed by controller but needed for legal claims, or objection pending.
+
+Article 20 - Right to Data Portability:
+Data subjects can receive personal data in structured, commonly used, machine-readable format and transmit to another controller without hindrance.
+
+Article 21 - Right to Object:
+Data subjects can object to processing based on legitimate interests or direct marketing. Controller must cease processing unless compelling legitimate grounds override data subject's interests.
+
+Article 22 - Automated Decision-Making:
+Right not to be subject to solely automated decision-making with legal or similarly significant effects, including profiling, unless necessary for contract, authorized by law, or based on explicit consent.
+
+CONTROLLER OBLIGATIONS:
+
+Article 25 - Data Protection by Design and Default:
+Implement technical and organizational measures ensuring privacy protection integrated into processing activities and business practices. Default settings should provide highest privacy protection.
+
+Article 30 - Records of Processing Activities:
+Maintain written records documenting: processing purposes, data categories, data subject categories, recipient categories, international transfers, retention periods, and security measures.
+
+Article 32 - Security of Processing:
+Implement appropriate technical and organizational security measures including:
+- Pseudonymization and encryption of personal data
+- Ongoing confidentiality, integrity, availability, and resilience of systems
+- Ability to restore availability and access after incidents
+- Regular testing, assessment, and evaluation of security effectiveness
+
+Article 33 - Breach Notification to Supervisory Authority:
+Notify relevant Data Protection Authority within 72 hours of becoming aware of personal data breach likely to result in risk to rights and freedoms. Documentation of breach, effects, and remedial action required.
+
+Article 34 - Breach Notification to Data Subjects:
+Notify affected data subjects without undue delay when breach likely to result in high risk to rights and freedoms. Communication must describe breach in clear and plain language.
+
+Article 35 - Data Protection Impact Assessment (DPIA):
+Required for processing likely to result in high risk to data subject rights, including: systematic monitoring, large-scale processing of special categories of data, or profiling with legal effects.
+
+INTERNATIONAL DATA TRANSFERS (Chapter V):
+
+Article 44 - General Principle:
+Transfers to third countries permitted only if controller/processor complies with GDPR conditions ensuring protection level not undermined.
+
+Article 45 - Adequacy Decisions:
+European Commission can determine third country provides adequate protection level. Current adequacy decisions include: Andorra, Argentina, Canada (commercial), Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, South Korea, Switzerland, UK, Uruguay, EU-US Data Privacy Framework.
+
+Article 46 - Appropriate Safeguards:
+For non-adequate countries, transfers permitted with appropriate safeguards:
+- Standard Contractual Clauses (SCCs) approved by European Commission
+- Binding Corporate Rules (BCRs) for intra-corporate transfers
+- Approved certification mechanisms
+- Codes of conduct with binding enforcement
+
+PENALTIES (Article 83):
+Administrative fines up to €20 million or 4% of total worldwide annual turnover (whichever is higher) for most serious infringements including:
+- Processing without legal basis
+- Violating data subject rights
+- Unlawful international transfers
+- Non-compliance with supervisory authority orders
+
+Lower tier fines (€10 million or 2% of turnover) for controller/processor obligation violations.
+
+SUPERVISORY AUTHORITIES:
+Each EU member state has Data Protection Authority (DPA) responsible for GDPR enforcement. Lead supervisory authority principle applies for cross-border processing. Irish DPA, German DPA, and French CNIL are most active for tech companies.
+
+DILIGENT COMPLIANCE APPROACH:
+- Privacy by Design integrated into product development lifecycle
+- Standard Contractual Clauses implemented for all non-EEA transfers
+- Data Processing Agreements with all processors and subprocessors
+- Privacy Impact Assessments for new processing activities
+- Data Subject Request portal with 30-day response SLA
+- Annual GDPR compliance audits and staff training
+- DPO appointed and registered with supervisory authorities
+
+REFERENCE LINKS:
+Official Text: https://eur-lex.europa.eu/eli/reg/2016/679/oj
+EDPB Guidelines: https://edpb.europa.eu/our-work-tools/general-guidance_en

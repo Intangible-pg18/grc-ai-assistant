@@ -1,0 +1,61 @@
+POLICY ID: POL-013
+TITLE: Enterprise Risk Management Policy
+VERSION: 4.1
+LAST UPDATED: 2025-01-15
+OWNER: Chief Risk Officer
+REGULATORY MAPPING: ISO 31000, COSO ERM Framework, SOC 2 CC3.1
+
+PURPOSE:
+This policy establishes Diligent's enterprise risk management framework to systematically identify, assess, monitor, and mitigate risks that could impact achievement of strategic objectives, business operations, regulatory compliance, financial performance, or reputation. ERM enables informed decision-making and proactive risk treatment.
+
+SCOPE:
+Applies to all risk categories including strategic, operational, financial, compliance, technology, cybersecurity, third-party, legal, and reputational risks across all Diligent business units, geographies, products, and services.
+
+RISK MANAGEMENT FRAMEWORK:
+
+Governance Structure:
+- Board Risk Committee provides oversight with quarterly risk reporting and annual risk appetite approval
+- Executive Risk Council (CEO, CFO, CRO, CISO, CCO, General Counsel) meets monthly to review enterprise risk register
+- Risk owners assigned for each identified risk with accountability for treatment and monitoring
+- Three lines of defense model: (1) Business units own risks, (2) Risk/Compliance provides oversight, (3) Internal Audit provides assurance
+
+Risk Appetite Statement:
+Diligent maintains conservative risk appetite for compliance, data security, and privacy risks with zero tolerance for regulatory violations or data breaches. Moderate appetite for technology and market risks supporting innovation. Higher appetite for strategic risks necessary for growth.
+
+RISK ASSESSMENT METHODOLOGY:
+
+Risk Identification:
+- Annual enterprise risk assessment workshops with leadership identifying risks across all categories
+- Bottom-up risk identification through incident reports, audit findings, and employee reporting
+- External risk scanning monitoring industry trends, regulatory changes, and emerging threats
+- Scenario planning for low-probability, high-impact events (pandemic, geopolitical, economic)
+
+Risk Analysis:
+- Likelihood rating: Rare (1), Unlikely (2), Possible (3), Likely (4), Almost Certain (5)
+- Impact rating: Minimal (1), Minor (2), Moderate (3), Major (4), Catastrophic (5)
+- Inherent risk score: Likelihood × Impact before controls
+- Residual risk score: Likelihood × Impact after considering control effectiveness
+- Risk heat map visualization with executive dashboard
+
+Risk Treatment Options:
+- Avoid: Eliminate risk by discontinuing activity
+- Mitigate: Implement controls reducing likelihood or impact
+- Transfer: Insurance, contracts, or outsourcing to shift risk
+- Accept: Acknowledge risk with documented justification and monitoring
+
+DETAILED REQUIREMENTS:
+
+- Enterprise risk register maintained in GRC platform with 100+ documented risks, treatments, and ownership
+- Critical risks (residual score ≥15) require C-level owner and quarterly executive review
+- Key Risk Indicators (KRIs) tracked monthly with thresholds triggering escalation and action
+- Risk register updated continuously with quarterly comprehensive review and annual refresh
+- Risk reporting to Board quarterly including top 10 risks, trend analysis, and treatment status
+- Risk tolerance levels defined by risk category with escalation procedures for breaches
+- Correlation analysis identifying risk interdependencies and aggregation effects
+
+RISK CULTURE:
+Diligent promotes open discussion of risks without blame, encourages early escalation of concerns, and integrates risk considerations into strategic planning and decision-making processes.
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-15
+CRO CONTACT: cro@diligent.com

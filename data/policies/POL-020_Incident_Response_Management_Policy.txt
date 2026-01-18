@@ -1,0 +1,122 @@
+POLICY ID: POL-020
+TITLE: Incident Response and Management Policy
+VERSION: 5.5
+LAST UPDATED: 2025-01-08
+OWNER: Chief Information Security Officer
+REGULATORY MAPPING: SOC 2 CC7.3, ISO 27001 A.5.24, GDPR Art. 33-34, NIST 800-61r2
+
+PURPOSE:
+This policy establishes procedures for detecting, responding to, investigating, and recovering from security incidents, data breaches, and operational disruptions to minimize business impact, protect customer data, meet regulatory notification requirements, and prevent incident recurrence through lessons learned.
+
+SCOPE:
+Applies to all security incidents, data breaches, privacy violations, system outages, and operational disruptions affecting Diligent's systems, data, services, employees, or customers. Includes confirmed incidents and suspected incidents requiring investigation.
+
+INCIDENT CLASSIFICATION:
+
+Severity Definitions:
+
+CRITICAL (P1) - Immediate Response Required:
+- Active data breach with customer PII exposed or exfiltrated
+- Ransomware encryption of production systems or critical data
+- Complete service outage affecting all customers (>50% degradation)
+- Ongoing targeted cyberattack with active intrusion
+- Public disclosure of confidential vulnerability or credentials
+- Regulatory violation with immediate compliance impact
+
+HIGH (P2) - Urgent Response (Within 2 Hours):
+- Malware infection on production systems or multiple endpoints
+- Unauthorized access to Confidential or Restricted data (no confirmed exfiltration)
+- Partial service outage affecting subset of customers (25-50% degradation)
+- DDoS attack causing performance degradation
+- Insider threat investigation with evidence of malicious activity
+- Data breach of employee personal information
+
+MEDIUM (P3) - Standard Response (Within 8 Hours):
+- Suspicious activity indicating possible compromise requiring investigation
+- Policy violation with security implications (unauthorized software, policy bypass)
+- Minor service degradation (<25% impact)
+- Phishing campaign targeting employees with click-throughs
+- Vulnerability discovery in production requiring expedited patching
+
+LOW (P4) - Routine Response (Within 24 Hours):
+- False positive from security monitoring requiring verification
+- Minor policy violations with minimal security impact
+- Isolated malware infection on single endpoint (contained)
+
+INCIDENT RESPONSE TEAM (IRT):
+
+Core Team:
+- Incident Commander (CISO or designee) - Overall incident coordination and decision authority
+- Security Operations Lead - Technical investigation and forensics
+- IT Operations Lead - System recovery and restoration
+- Legal Counsel - Legal and regulatory guidance, litigation hold
+- Communications Lead - Internal and external communications, PR
+- HR Representative - Insider threat investigations, employee relations
+
+Extended Team (As Needed):
+- Privacy Officer - GDPR/CCPA breach assessment and notification
+- Customer Success - Customer communication and support
+- External Forensics Firm - Complex investigations requiring specialized expertise
+- Law Enforcement Liaison - Criminal activity reporting and cooperation
+- Cyber Insurance Provider - Coverage verification and claims processing
+
+INCIDENT RESPONSE PROCESS:
+
+Phase 1: Detection and Analysis (0-2 Hours)
+- Incident detected via SIEM alerts, monitoring, user reports, or threat intelligence
+- Initial triage by Security Operations team assessing severity and scope
+- Incident declared with severity classification and IRT activation
+- Incident ticket created in ServiceNow with timeline documentation
+- Evidence preservation begins immediately (log collection, memory dumps, disk images)
+- Preliminary impact assessment: systems affected, data involved, customer impact
+
+Phase 2: Containment (Immediate - Within 4 Hours)
+- Short-term containment: Isolate affected systems, block attacker infrastructure, disable compromised accounts
+- Long-term containment: Apply patches, strengthen access controls, implement additional monitoring
+- Forensic image creation before remediation to preserve evidence
+- Threat intelligence gathering on attacker TTPs, indicators of compromise
+- Root cause hypothesis developed based on available evidence
+
+Phase 3: Eradication (4-24 Hours)
+- Remove malware, backdoors, and attacker persistence mechanisms
+- Patch vulnerabilities exploited during attack
+- Rebuild compromised systems from clean backups or gold images
+- Password resets for affected accounts with MFA enforcement
+- Verify complete eradication through comprehensive scanning and monitoring
+
+Phase 4: Recovery (24-72 Hours)
+- Restore systems to production with enhanced monitoring
+- Validate system functionality and data integrity
+- Gradual traffic restoration with health monitoring
+- Heightened security monitoring for 30 days post-incident
+- User communication regarding restored services
+
+Phase 5: Post-Incident Activities (Within 7 Days)
+- Post-incident review meeting with IRT and stakeholders
+- Root cause analysis documenting attack vector, timeline, and contributing factors
+- Lessons learned identifying security gaps and improvement opportunities
+- Remediation action items assigned with owners and due dates
+- Incident report documenting response, findings, and recommendations
+- Updates to runbooks, detection rules, and security controls
+
+BREACH NOTIFICATION REQUIREMENTS:
+
+GDPR (EU Personal Data):
+- Data Protection Authority notification within 72 hours of breach discovery
+- Data subject notification without undue delay if high risk to rights and freedoms
+- Documentation of breach facts, effects, remediation actions
+
+CCPA (California Residents):
+- California Attorney General notification if >500 California residents affected
+- Individual notification without unreasonable delay
+- Offer 12 months free credit monitoring if SSN compromised
+
+Other Regulations:
+- State breach notification laws (varies by state, typically 30-60 days)
+- Contractual notification requirements per customer agreements (typically 24-72 hours)
+- Regulatory reporting for specific industries (HIPAA, PCI DSS, financial services)
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-08
+CISO CONTACT: ciso@diligent.com
+INCIDENT HOTLINE: +1-555-INCIDENT (24/7)

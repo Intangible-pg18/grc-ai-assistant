@@ -1,0 +1,57 @@
+POLICY ID: POL-007
+TITLE: Encryption and Cryptography Policy
+VERSION: 3.3
+LAST UPDATED: 2025-01-09
+OWNER: Chief Information Security Officer
+REGULATORY MAPPING: SOC 2 CC6.7, ISO 27001 A.10.1, GDPR Art. 32, PCI DSS 3.4, NIST 800-175B
+
+PURPOSE:
+This policy defines encryption standards and cryptographic controls to protect sensitive data confidentiality and integrity during storage, transmission, and processing. Strong cryptography is essential for preventing data breaches and meeting regulatory requirements.
+
+SCOPE:
+Applies to all systems, applications, databases, storage devices, communications channels, and data repositories containing Diligent or customer data classified as Confidential or Restricted per POL-001.
+
+ENCRYPTION ALGORITHMS AND KEY LENGTHS:
+
+Approved Algorithms:
+- Symmetric Encryption: AES-256 (preferred), AES-128 (acceptable for performance-critical applications)
+- Asymmetric Encryption: RSA 4096-bit (preferred), RSA 2048-bit (minimum), ECC P-384
+- Hashing: SHA-256, SHA-384, SHA-512, Argon2id (for passwords)
+- Digital Signatures: RSA-PSS, ECDSA with P-384
+
+Prohibited/Deprecated Algorithms:
+- DES, 3DES, RC4, MD5, SHA-1 (deprecated and insecure)
+- RSA keys below 2048 bits
+- Any proprietary or unvetted encryption schemes
+
+DATA AT REST ENCRYPTION:
+
+- Database encryption using Transparent Data Encryption (TDE) for all production databases
+- Full disk encryption (BitLocker, LUKS, FileVault) mandatory for all laptops, workstations, and servers
+- Cloud storage encryption using provider-managed keys (AWS S3 SSE, Azure Storage Encryption)
+- Sensitive fields encrypted at application layer using envelope encryption with customer-managed keys
+- Backup media encrypted before leaving secure data center with separate key management
+- Mobile devices require device encryption enabled before provisioning
+- Removable media (USB drives) must use hardware encryption (FIPS 140-2 Level 2 validated)
+
+DATA IN TRANSIT ENCRYPTION:
+
+- TLS 1.3 required for all web traffic; TLS 1.2 acceptable with strong cipher suites
+- Cipher suites: ECDHE-RSA-AES256-GCM-SHA384, ECDHE-RSA-AES128-GCM-SHA256 (forward secrecy required)
+- Perfect Forward Secrecy (PFS) mandatory for all TLS connections
+- Certificate management: 2048-bit RSA minimum, 90-day rotation for public-facing certificates
+- VPN connections: IPsec with AES-256 or WireGuard with ChaCha20-Poly1305
+- Email encryption: TLS for transport, S/MIME or PGP for end-to-end encrypted messages
+- API communications: Mutual TLS (mTLS) for service-to-service authentication
+
+KEY MANAGEMENT REQUIREMENTS:
+
+- Centralized key management using FIPS 140-2 Level 3 validated Hardware Security Module (HSM)
+- Key rotation: Encryption keys rotated every 12 months, certificates every 90 days, API keys every 180 days
+- Key escrow procedures documented for business continuity with dual-custody requirements
+- Cryptographic key destruction per NIST 800-88 guidelines when decommissioned
+- Separation of duties: Key generation, storage, and destruction performed by different personnel
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-09
+CISO CONTACT: ciso@diligent.com

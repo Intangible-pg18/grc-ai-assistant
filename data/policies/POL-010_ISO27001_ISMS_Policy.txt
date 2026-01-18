@@ -1,0 +1,55 @@
+POLICY ID: POL-010
+TITLE: ISO 27001 Information Security Management Policy
+VERSION: 5.0
+LAST UPDATED: 2025-01-06
+OWNER: Chief Information Security Officer
+REGULATORY MAPPING: ISO/IEC 27001:2022, ISO/IEC 27002:2022
+
+PURPOSE:
+This policy establishes Diligent's Information Security Management System (ISMS) framework aligned with ISO 27001 standards to systematically manage information security risks, protect information assets, and maintain confidentiality, integrity, and availability of business and customer information through a risk-based approach.
+
+SCOPE:
+The ISMS applies to all information assets, systems, processes, locations, and personnel within Diligent's corporate and production environments. Certificate scope covers SaaS platform delivery, customer data processing, and supporting infrastructure across all global offices and cloud regions.
+
+ISMS FRAMEWORK:
+
+Leadership and Commitment: Executive leadership demonstrates commitment through ISMS policy approval, resource allocation, and monthly security steering committee participation.
+
+Context of Organization: Annual strategic planning considers internal/external factors, stakeholder requirements, legal obligations, and competitive landscape affecting information security.
+
+Planning: Risk assessment conducted semi-annually identifying threats, vulnerabilities, and impacts. Risk treatment plan documents accept, mitigate, transfer, or avoid decisions with executive approval.
+
+Support: Resources, competence, awareness, and communication mechanisms established. Security awareness training, tools procurement, and expert consultation funded appropriately.
+
+Operation: Controls implemented per Annex A with operational procedures, change management, and supplier management.
+
+Performance Evaluation: Monitoring, measurement, internal audit, and management review ensure continual improvement.
+
+Improvement: Nonconformities addressed through corrective action with root cause analysis and preventive measures.
+
+ISO 27001 ANNEX A CONTROLS:
+
+- 93 controls across 4 themes (Organizational, People, Physical, Technological) implemented based on risk assessment
+- Statement of Applicability (SoA) documents control applicability with justification for exclusions
+- Control objectives defined with measurable metrics and target performance levels
+- Gap analysis conducted annually comparing current vs desired control maturity
+
+DETAILED REQUIREMENTS:
+
+- Risk assessment methodology using NIST 800-30 framework with likelihood and impact scoring (1-5 scale)
+- Risk register maintained with 150+ identified risks, treatment status, control owners, and residual risk ratings
+- Annual ISO 27001 surveillance audit by accredited certification body (current: BSI)
+- Triennial recertification audit with full ISMS assessment and control testing
+- Internal audit program covering all ISMS clauses and controls annually with qualified lead auditor
+- Management review quarterly examining ISMS performance, audit findings, risk changes, and improvement opportunities
+- Corrective action process for nonconformities with 30-day closure requirement and verification
+
+INFORMATION SECURITY OBJECTIVES (2025):
+- Reduce security incidents by 25% year-over-year through enhanced detection and prevention
+- Achieve 95% employee security awareness training completion within 30 days of hire
+- Implement zero-trust architecture across production environment by Q4
+- Obtain ISO 27701 privacy extension certification by December 2025
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-06
+CISO CONTACT: ciso@diligent.com

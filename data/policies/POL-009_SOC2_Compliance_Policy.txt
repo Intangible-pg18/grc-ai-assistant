@@ -1,0 +1,49 @@
+POLICY ID: POL-009
+TITLE: SOC 2 Compliance Policy
+VERSION: 3.7
+LAST UPDATED: 2025-01-07
+OWNER: Chief Compliance Officer
+REGULATORY MAPPING: SOC 2 Type II (Trust Services Criteria), AICPA TSP Section 100
+
+PURPOSE:
+This policy establishes Diligent's commitment to maintaining SOC 2 Type II compliance by implementing controls addressing the Trust Services Criteria: Security, Availability, Processing Integrity, Confidentiality, and Privacy. SOC 2 attestation demonstrates to customers our commitment to protecting their data and maintaining service reliability.
+
+SCOPE:
+Applies to all systems, processes, personnel, and third parties involved in delivering Diligent's SaaS platform services included within the SOC 2 audit scope boundary. Current scope includes production application infrastructure, customer data storage, authentication systems, and supporting IT operations.
+
+TRUST SERVICES CRITERIA COMMITMENT:
+
+Security (CC): Common Criteria controls protect system resources against unauthorized access, use, disclosure, and destruction through logical and physical access controls, system monitoring, and change management.
+
+Availability (A1): System available for operation and use 99.9% uptime SLA through redundant infrastructure, disaster recovery capabilities, and incident response procedures.
+
+Processing Integrity (PI): System processing is complete, valid, accurate, timely, and authorized through input validation, error handling, reconciliation, and quality assurance.
+
+Confidentiality (C): Confidential information protected through encryption, access controls, and data classification as outlined in POL-001 and POL-007.
+
+Privacy (P): Personal information collected, used, retained, and disclosed in accordance with privacy notice and POL-002 commitments.
+
+DETAILED REQUIREMENTS:
+
+- Continuous control monitoring through automated tools with monthly control testing and quarterly management review
+- Control deficiencies documented in risk register with remediation plans and executive accountability
+- Annual SOC 2 Type II audit conducted by qualified CPA firm with report issued within 120 days of period end
+- Subservice organization reports (SOC 2/3) obtained annually from AWS, Azure, and critical SaaS providers
+- Complementary user entity controls (CUECs) documented in SOC 2 report with customer guidance
+- Bridge letters issued for control changes between audit periods explaining impact and remediation
+- Internal audit testing quarterly covering 25% of controls with rotation ensuring annual complete coverage
+
+CONTROL ENVIRONMENT:
+
+- Control catalog maintained in GRC platform with control descriptions, testing procedures, and ownership
+- Risk assessment updated annually identifying threats to Trust Services Criteria
+- Policies and procedures reviewed annually with version control and approval workflows
+- Security awareness training mandatory for all employees quarterly with phishing simulations
+- Background checks completed for all employees with access to customer data prior to access grant
+
+SOC 2 AUDIT COORDINATION:
+Compliance team coordinates evidence collection, control testing, and auditor walkthroughs. Control owners responsible for maintaining evidence and demonstrating control effectiveness.
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-07
+CCO CONTACT: cco@diligent.com

@@ -1,0 +1,60 @@
+POLICY ID: POL-008
+TITLE: Network Security Policy
+VERSION: 4.4
+LAST UPDATED: 2025-01-13
+OWNER: Chief Information Security Officer
+REGULATORY MAPPING: SOC 2 CC6.6, ISO 27001 A.13.1, PCI DSS 1.2, NIST 800-41
+
+PURPOSE:
+This policy establishes network security controls including segmentation, firewalls, intrusion detection, and monitoring to protect Diligent's network infrastructure from unauthorized access, malicious activity, and cyber threats while ensuring availability for legitimate business operations.
+
+SCOPE:
+Applies to all network devices, systems, connections, and infrastructure including corporate networks, production environments, cloud networks, wireless networks, VPN connections, and connections to third-party networks.
+
+NETWORK SEGMENTATION:
+
+- Production networks isolated from corporate networks using dedicated VLANs and firewalls
+- DMZ implemented for internet-facing services with dual-firewall architecture
+- Database tier segregated from application tier with restricted firewall rules
+- Payment processing systems in separate PCI DSS compliant segment with dedicated firewall
+- Guest Wi-Fi isolated from corporate network with no access to internal resources
+- IoT devices and building systems on separate management network
+
+FIREWALL REQUIREMENTS:
+
+- Next-generation firewalls (NGFW) with intrusion prevention, application awareness, and SSL inspection
+- Default deny policy: All traffic blocked unless explicitly permitted by approved firewall rule
+- Rule documentation: Business justification, data owner approval, and review date required for each rule
+- Annual firewall rule review and cleanup to remove obsolete rules
+- Change management: All firewall changes require CAB approval except emergency security changes
+- Logging: All firewall denials and policy violations logged to SIEM with 2-year retention
+- High availability: Active-passive firewall pairs with automatic failover in under 30 seconds
+
+INTRUSION DETECTION AND PREVENTION:
+
+- Network-based IDS/IPS deployed at network perimeter and critical internal segments
+- Signature updates applied within 24 hours of release with automated testing
+- Custom signatures developed for application-specific threats and known attack patterns
+- SSL/TLS inspection for outbound traffic to detect encrypted malware communications
+- Anomaly detection using machine learning to identify zero-day attacks and APTs
+- Automated blocking of high-confidence threats with security analyst review queue for medium threats
+
+DETAILED REQUIREMENTS:
+
+- Remote access via VPN only; split-tunneling prohibited for corporate device access
+- Multi-factor authentication required for VPN with reauthentication every 12 hours
+- Wireless networks use WPA3-Enterprise with 802.1X authentication and unique user credentials
+- Network Access Control (NAC) enforces device compliance before network admission
+- Rogue access point detection with quarterly wireless security assessments
+- DDoS mitigation service activated with 10 Gbps scrubbing capacity and automatic activation
+- Network monitoring with NetFlow analysis, bandwidth monitoring, and capacity planning
+
+CLOUD NETWORK SECURITY:
+- Virtual Private Cloud (VPC) with private subnets for databases and application tier
+- Security groups configured with least privilege; source IP restrictions where possible
+- VPC flow logs enabled and sent to SIEM for analysis and threat hunting
+- AWS GuardDuty / Azure Defender / GCP Security Command Center enabled for cloud threat detection
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-13
+CISO CONTACT: ciso@diligent.com

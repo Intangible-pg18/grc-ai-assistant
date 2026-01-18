@@ -1,0 +1,66 @@
+POLICY ID: POL-014
+TITLE: Third-Party Vendor Risk Management Policy
+VERSION: 5.2
+LAST UPDATED: 2025-01-10
+OWNER: Chief Risk Officer
+REGULATORY MAPPING: SOC 2 CC9.2, ISO 27001 A.5.19, GDPR Art. 28, CCPA, NYDFS 500.11
+
+PURPOSE:
+This policy establishes due diligence, risk assessment, contracting, and ongoing monitoring requirements for third-party vendors to ensure they maintain appropriate security, privacy, and operational controls protecting Diligent and customer data while meeting service level commitments.
+
+SCOPE:
+Applies to all third-party relationships including SaaS providers, cloud infrastructure, professional services, contractors, consultants, business process outsourcers, and any vendor accessing Diligent systems, data, or facilities. Excludes immaterial vendors (<$25K annual spend with no data access).
+
+VENDOR RISK CLASSIFICATION:
+
+Tier 1 - Critical: Vendors processing customer data, providing critical services (cloud infrastructure, authentication), or with production access. Extensive due diligence and continuous monitoring required.
+
+Tier 2 - High: Vendors with access to confidential data or important business functions. Standard due diligence and annual reviews.
+
+Tier 3 - Medium: Vendors with limited data access or standard business services. Streamlined assessment and biennial reviews.
+
+Tier 4 - Low: Minimal risk vendors with no data access. Basic assessment at onboarding only.
+
+VENDOR LIFECYCLE MANAGEMENT:
+
+Pre-Engagement Assessment:
+- Business case and vendor selection criteria documented with competitive evaluation
+- Security questionnaire (Tier 1: SIG Core, Tier 2: Custom 100-question, Tier 3: 25-question)
+- Privacy assessment including data processing activities, subprocessors, and cross-border transfers
+- Financial stability review examining financial statements and credit reports for Tier 1/2 vendors
+- References checked with minimum 2 customer references for Tier 1 vendors
+- Onsite visits conducted for critical vendors processing customer data
+
+Due Diligence Requirements by Tier:
+- Tier 1: SOC 2 Type II report, ISO 27001 certificate, penetration test results, BCP test results, insurance certificates ($5M cyber liability minimum)
+- Tier 2: SOC 2 or ISO 27001, security questionnaire, insurance certificates
+- Tier 3: Security questionnaire, basic attestations
+- Tier 4: Vendor attestation of security practices
+
+DETAILED CONTRACTUAL REQUIREMENTS:
+
+- Data Processing Addendum (DPA) with Standard Contractual Clauses for EU data transfers
+- Security and privacy obligations aligned with Diligent's policies and regulatory requirements
+- Right to audit vendor controls annually with 30-day notice
+- Incident notification within 24 hours of discovery with root cause analysis within 72 hours
+- Subprocessor approval process requiring prior written consent
+- Service Level Agreements (SLAs): 99.9% uptime for critical services with financial penalties
+- Data return and destruction procedures upon contract termination within 30 days
+- Liability caps, indemnification, and insurance requirements ($2M general liability, $5M cyber)
+- Business continuity and disaster recovery capabilities with RTO/RPO commitments
+
+ONGOING MONITORING:
+
+- Annual vendor risk reassessment for Tier 1/2 vendors with updated security documentation
+- Continuous monitoring of vendor security posture using SecurityScorecard/BitSight ratings
+- Quarterly business reviews with Tier 1 vendors covering performance, security, and roadmap
+- Vendor incident tracking with impact assessment and corrective action verification
+- Contract renewal process includes risk reassessment and business value evaluation
+- Vendor termination procedures with data retrieval, access revocation, and knowledge transfer
+
+VENDOR INVENTORY:
+Centralized vendor register maintained in GRC platform with 200+ vendors, tier classifications, contract details, risk scores, and review dates.
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-10
+CRO CONTACT: cro@diligent.com

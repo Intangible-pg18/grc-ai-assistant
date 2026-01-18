@@ -1,0 +1,43 @@
+POLICY ID: POL-003
+TITLE: Data Retention and Disposal Policy
+VERSION: 2.8
+LAST UPDATED: 2025-01-12
+OWNER: Chief Compliance Officer
+REGULATORY MAPPING: GDPR Art. 5(e), SOC 2, ISO 27001, SOX, CCPA
+
+PURPOSE:
+This policy defines retention periods for different data categories and establishes secure disposal procedures to ensure Diligent maintains data only as long as necessary for business, legal, and regulatory purposes. Proper retention and disposal reduces security risks, storage costs, and regulatory exposure.
+
+SCOPE:
+Applies to all data in any format (electronic, paper, audio, video) across all Diligent systems, applications, databases, archives, and backup media. Includes customer data, financial records, employee information, contracts, communications, and business records.
+
+RETENTION SCHEDULES BY DATA CATEGORY:
+
+- Customer Personal Data: Duration of contract + 90 days (unless legal hold or consent for marketing)
+- Financial Records: 7 years from fiscal year end (SOX, IRS requirements)
+- Employee Records: Duration of employment + 7 years (varies by jurisdiction)
+- Audit Logs and Security Events: 2 years minimum (SOC 2 requirement)
+- Contracts and Agreements: Term + 7 years after expiration
+- Marketing Communications: Until consent withdrawal + 30 days
+- Backup Data: 90 days rolling retention with quarterly archival
+
+DETAILED REQUIREMENTS:
+
+- Data owners must implement automated retention controls and deletion workflows where technically feasible
+- Manual review required quarterly to identify data eligible for disposal based on retention schedule
+- Legal hold procedures override standard retention when litigation or investigation pending
+- Retention periods must be documented in data inventory with justification and legal basis
+- Exception requests for extended retention require CCO approval with documented business justification
+- Disposal certificates must be retained for audit purposes demonstrating compliant data destruction
+- Annual attestation from data owners confirming retention policy compliance
+
+SECURE DISPOSAL METHODS:
+
+- Electronic Data: Cryptographic erasure, DoD 5220.22-M seven-pass overwrite, or physical destruction of media
+- Physical Documents: Cross-cut shredding (DIN P-4 minimum) by certified vendor with destruction certificate
+- Backup Media: Degaussing or physical destruction with documented chain of custody
+- Cloud Data: Verified deletion with provider confirmation across all regions and backup systems
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-12
+POLICY OWNER CONTACT: cco@diligent.com

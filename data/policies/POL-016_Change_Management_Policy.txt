@@ -1,0 +1,81 @@
+POLICY ID: POL-016
+TITLE: Change Management Policy
+VERSION: 4.3
+LAST UPDATED: 2025-01-14
+OWNER: Chief Technology Officer
+REGULATORY MAPPING: SOC 2 CC8.1, ISO 27001 A.8.32, ITIL Change Management
+
+PURPOSE:
+This policy establishes standardized change management processes to ensure system changes are planned, tested, approved, and implemented in controlled manner minimizing service disruptions, security vulnerabilities, and adverse impacts to customers while enabling innovation and continuous improvement.
+
+SCOPE:
+Applies to all changes to production systems, infrastructure, applications, databases, network devices, security controls, and configurations that could impact service availability, security posture, or customer experience. Includes software releases, infrastructure changes, and emergency fixes.
+
+CHANGE CATEGORIES:
+
+Standard Changes: Pre-approved, low-risk, routine changes with documented procedures. Examples: SSL certificate renewal, routine patching, scaling operations. No CAB approval required.
+
+Normal Changes: Planned changes requiring risk assessment and CAB approval. Examples: application releases, infrastructure upgrades, security control modifications. Standard CAB process.
+
+Emergency Changes: Urgent changes addressing security vulnerabilities, service outages, or critical defects. Expedited approval by Emergency CAB with post-implementation review.
+
+CHANGE ADVISORY BOARD (CAB):
+
+Composition: CTO (chair), Engineering Directors, CISO, Operations Manager, Customer Support Lead
+Meeting Schedule: Weekly on Thursdays; emergency CAB convened within 2 hours
+Quorum: 5 members required for approval
+Responsibilities: Review changes, assess risks, approve/reject/defer, schedule implementation windows
+
+DETAILED CHANGE PROCESS:
+
+1. Change Request Submission:
+- RFC (Request for Change) created in ServiceNow with business justification and impact analysis
+- Implementation plan with steps, backout procedures, and testing evidence
+- Risk assessment identifying potential impacts and mitigation strategies
+- Change window requested during approved maintenance windows (Saturday 2-6 AM ET for customer-facing)
+
+2. Risk Assessment:
+- Technical risk: Complexity, scope, interdependencies, novelty
+- Business risk: Customer impact, revenue effect, regulatory implications
+- Security risk: Attack surface changes, vulnerability introduction, control gaps
+- Risk scoring: Low (1-5), Medium (6-10), High (11-15), Critical (16-25)
+- High/Critical risks require additional approvals and rollback verification
+
+3. Testing Requirements:
+- Development environment testing for all changes
+- Integration/staging environment testing with production-like data and configurations
+- User acceptance testing (UAT) for feature releases
+- Security testing for changes affecting authentication, authorization, or data handling
+- Performance testing for infrastructure and scaling changes
+- Automated regression testing passing with >95% success rate
+
+4. CAB Review and Approval:
+- Changes submitted 5 business days before CAB for normal changes
+- CAB evaluates business value, technical readiness, risk, and schedule coordination
+- Approval contingent on complete documentation, successful testing, and acceptable risk
+- Conflicts and dependencies identified with sequencing decisions
+
+5. Implementation:
+- Change implementation during approved window with on-call team monitoring
+- Health checks and smoke tests performed post-deployment
+- Automated monitoring alerts reviewed for anomalies
+- Staged rollout for high-risk changes (canary deployment to 5%, then 50%, then 100%)
+- Communication to customers via status page for customer-impacting changes
+
+6. Post-Implementation Review:
+- Change closed in ServiceNow with success/failure status and lessons learned
+- Failed changes trigger incident process with root cause analysis
+- Recurring issues identified for permanent fix rather than repeated changes
+- CAB effectiveness metrics reviewed monthly
+
+EMERGENCY CHANGE PROCESS:
+Emergency CAB convened within 2 hours with CTO, CISO, and on-call Engineering Manager. Security patches and critical defects approved rapidly with concurrent implementation and documentation. Post-implementation review within 48 hours.
+
+CHANGE FREEZE PERIODS:
+- Black Friday through Cyber Monday (November)
+- December 15 - January 2 (holiday freeze)
+- Other freeze periods announced 30 days in advance
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-14
+CTO CONTACT: cto@diligent.com

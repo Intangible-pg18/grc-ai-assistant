@@ -1,0 +1,47 @@
+POLICY ID: POL-004
+TITLE: Cross-Border Data Transfer Policy
+VERSION: 3.5
+LAST UPDATED: 2025-01-08
+OWNER: Data Protection Officer
+REGULATORY MAPPING: GDPR Chapter V, CCPA, LGPD, PIPEDA, APPI
+
+PURPOSE:
+This policy governs the transfer of personal data across international borders to ensure Diligent maintains appropriate safeguards and complies with data protection regulations when transferring data outside the originating jurisdiction. It protects data subjects' rights while enabling necessary global business operations.
+
+SCOPE:
+Applies to all transfers of personal data from EEA, UK, Switzerland, California, Canada, Brazil, and other jurisdictions with data localization or transfer restrictions. Covers transfers to Diligent affiliates, third-party processors, cloud providers, and business partners in any country.
+
+ADEQUACY DETERMINATIONS:
+
+Diligent recognizes European Commission adequacy decisions for: Andorra, Argentina, Canada (commercial), Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, South Korea, Switzerland, UK, Uruguay. Transfers to adequate countries require minimal additional safeguards.
+
+TRANSFER MECHANISMS FOR NON-ADEQUATE COUNTRIES:
+
+- EU-US Data Privacy Framework certification (renewed annually, verified at https://dataprivacyframework.gov)
+- UK Extension to Data Privacy Framework for UK data transfers
+- Standard Contractual Clauses (2021 SCCs) with required annexes and Transfer Impact Assessment
+- Binding Corporate Rules (BCRs) for intra-group transfers (pending approval)
+- Explicit consent for one-time transfers (limited use, documented consent required)
+- Derogations for contract performance only when strictly necessary
+
+TRANSFER IMPACT ASSESSMENTS (TIA):
+
+- Required for all transfers to countries without adequacy decision before first transfer occurs
+- Assessment of destination country laws, government access risks, processor security measures
+- Documentation of supplementary measures implemented to ensure GDPR-level protection
+- Annual review of TIAs with updates for legal or operational changes
+- High-risk transfers require DPO approval and executive sign-off
+
+DETAILED REQUIREMENTS:
+
+- Data mapping must document all cross-border data flows with source, destination, purpose, and legal mechanism
+- Contracts with international processors must include SCCs, data processing terms, and security requirements
+- Cloud providers must confirm data residency options and government access transparency reports
+- Subprocessor lists required with location, processing activity, and transfer mechanism documentation
+- Encryption required for all data in transit across borders (TLS 1.3 minimum)
+- Data localization requirements honored (Russia, China, Vietnam, Indonesia, Brazil for sensitive data)
+- Alternative processing arrangements for restricted countries without adequate transfer mechanism
+
+REVIEW CYCLE: Semi-Annual
+NEXT REVIEW DATE: 2025-07-08
+DPO CONTACT: dpo@diligent.com

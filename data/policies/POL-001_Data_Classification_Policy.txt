@@ -1,0 +1,36 @@
+POLICY ID: POL-001
+TITLE: Data Classification and Handling Policy
+VERSION: 3.1
+LAST UPDATED: 2025-01-15
+OWNER: Chief Information Security Officer
+REGULATORY MAPPING: GDPR, SOC 2, ISO 27001, CCPA, NIST 800-53
+
+PURPOSE:
+This policy establishes a framework for classifying Diligent's data assets based on sensitivity, criticality, and regulatory requirements. Proper data classification ensures appropriate security controls are applied throughout the data lifecycle, protecting customer information, intellectual property, and business operations from unauthorized access, disclosure, or loss.
+
+SCOPE:
+This policy applies to all Diligent employees, contractors, third-party vendors, and systems that create, access, process, store, or transmit company or customer data. All data assets, regardless of format (electronic, physical, verbal), are subject to classification requirements.
+
+DATA CLASSIFICATION LEVELS:
+
+- PUBLIC: Information approved for public disclosure with no business impact if released
+- INTERNAL: General business information for internal use only, minimal impact if disclosed
+- CONFIDENTIAL: Sensitive business information requiring protection, moderate impact if compromised
+- RESTRICTED: Highly sensitive data including customer PII, payment data, trade secrets requiring maximum protection
+
+DETAILED REQUIREMENTS:
+
+- All data must be classified within 24 hours of creation or receipt using the four-tier classification system
+- Data owners must review and update classifications quarterly or when business context changes
+- Confidential and Restricted data must be encrypted at rest using AES-256 and in transit using TLS 1.3
+- Access to Restricted data requires multi-factor authentication and explicit authorization from data owner
+- Data handling procedures including storage, transmission, sharing, and disposal must align with classification level
+- All employees must complete annual data classification training with certification requirement
+- Third-party vendors accessing Confidential or Restricted data must sign data processing agreements
+
+LABELING AND MARKING:
+All documents, emails, and files containing Confidential or Restricted data must be clearly labeled with classification level in headers and footers.
+
+REVIEW CYCLE: Quarterly
+NEXT REVIEW DATE: 2025-04-15
+POLICY OWNER CONTACT: ciso@diligent.com

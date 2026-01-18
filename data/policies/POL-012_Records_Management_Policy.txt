@@ -1,0 +1,63 @@
+POLICY ID: POL-012
+TITLE: Records Management and Documentation Policy
+VERSION: 3.2
+LAST UPDATED: 2025-01-04
+OWNER: Chief Compliance Officer
+REGULATORY MAPPING: SOC 2 CC3.1, ISO 27001 A.5.33, SOX, GDPR Art. 30
+
+PURPOSE:
+This policy establishes standards for creating, organizing, retaining, and disposing of business records to ensure Diligent maintains accurate documentation supporting business operations, regulatory compliance, legal defensibility, and institutional knowledge while minimizing information security and privacy risks from excessive record retention.
+
+SCOPE:
+Applies to all business records in any format (electronic documents, emails, databases, physical files, communications, recordings, contracts) created or received by Diligent employees, contractors, and systems regardless of storage location.
+
+RECORD CATEGORIES AND RETENTION:
+
+Corporate Governance Records:
+- Board meeting minutes, resolutions, and materials: Permanent retention
+- Articles of incorporation, bylaws, corporate structure documents: Permanent
+- Stock certificates, capitalization table, equity grants: Permanent
+
+Financial and Accounting Records:
+- General ledger, journal entries, financial statements: 7 years post fiscal year
+- Tax returns and supporting documentation: 7 years from filing date
+- Accounts payable/receivable records: 7 years from transaction close
+- Audit reports and working papers: 7 years from audit completion
+- Expense reports and receipts: 7 years from reimbursement
+
+Legal and Compliance Records:
+- Contracts and agreements: Term + 7 years after expiration
+- Legal correspondence and opinions: 7 years or matter closure + 7 years
+- Regulatory filings and correspondence: 7 years from submission
+- Litigation files and discovery materials: Matter closure + 10 years
+- Insurance policies and claims: Policy term + 10 years
+
+Human Resources Records:
+- Personnel files and performance reviews: Employment + 7 years
+- Payroll records and tax withholdings: 7 years from payment
+- Benefit plan documents: Plan termination + 7 years
+- I-9 forms: Termination + 3 years or hire + 3 years (whichever later)
+- Workers compensation and safety records: 30 years
+
+DETAILED REQUIREMENTS:
+
+- Centralized document repository using SharePoint/Google Drive with folder structure aligned to retention schedule
+- Version control mandatory for policies, procedures, and controlled documents with approval workflows
+- Document classification labeling applied per POL-001 with automated retention policies
+- Legal hold procedures override standard retention when litigation anticipated or commenced
+- Destruction certificates obtained for physical records with chain of custody documentation
+- Email retention: 3 years with exceptions for litigation, regulatory, or business critical communications
+- Communication platform retention (Slack, Teams): 2 years with export to archive system
+
+DOCUMENTATION STANDARDS:
+- Policies reviewed annually with version history and approver signatures
+- Procedures documented with purpose, scope, roles, steps, and related policies
+- System documentation includes architecture diagrams, data flows, and configuration baselines
+- Change documentation retained for 2 years with approval evidence and back-out procedures
+
+PROCESSING ACTIVITY RECORDS (GDPR Art. 30):
+Register of processing activities maintained documenting data categories, purposes, recipients, retention periods, and security measures for all personal data processing.
+
+REVIEW CYCLE: Annual
+NEXT REVIEW DATE: 2026-01-04
+CCO CONTACT: cco@diligent.com
